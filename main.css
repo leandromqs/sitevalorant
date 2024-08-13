@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0px auto;
+    
+}
+
+h1, h2 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p, label, ul {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 32px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header .conteiner ul li{
+    display: inline;
+}
+
+header .conteiner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#persona_omen .conteiner {
+    display: flex;
+    align-items: start;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+#persona_omen .conteiner img {
+    width: 700px;
+}
+
+.howplay {
+    margin-left: 32px;
+}
+
+.howplay h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.skills h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.skills h3{
+    margin-bottom: 8px;
+    margin-top: 32px;
+    font-size: 24px;
+    color: #b12525;
+}
+
+.skills p {
+    margin-bottom: 8px;
+}
+
+#control {
+    margin-bottom: 40px;
+}
+
+.socialmedia ul li img{
+    height: 24px;
+}
+
+#contacts .conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+form .input, form button {
+    display: block;
+    width: 250px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #838383;
+}
+
+#contacts .socialmedia h3{
+    margin-bottom: 8px;
+}
+
+
+#contacts .socialmedia ul li{
+    display: inline;
+    margin-right: 16px;
+}
+
+#contacts .socialmedia ul li a{
+    text-decoration: none;
+}
+    
+#contacts .suggestion {
+    width: 400px;
+}
+
+#contacts .newslatter p{
+    margin-bottom: 16px;
+}
+
+
+footer{
+    padding: 32px;
+    background-color: #000;
+    color: #fff;
+}
+
+input:focus {
+    outline-color: #b12525;
+}
+
+.skills {
+    margin-bottom: 56px;
+}
